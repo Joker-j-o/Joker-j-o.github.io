@@ -15,7 +15,7 @@ collections:
 
 social:
     - icon: fa-facebook
-      link: "#"
+      link: "https://blog.csdn.net/weixin_43400271"
     - icon: fa-twitter
       link: "#"
     - icon: fa-linkedin
@@ -24,8 +24,6 @@ social:
       link: "#"
     - icon: fa-github
       link: "https://github.com/Joker-j-o"
-    - icon: fa-csdn
-      link: "https://blog.csdn.net/weixin_43400271"
 
 urls:
     - text: About Me 👈
