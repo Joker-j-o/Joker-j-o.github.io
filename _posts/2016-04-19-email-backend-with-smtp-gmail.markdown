@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Email BackEnd with SMTP Gmail"
-date:   2016-04-19 02:28:15 +0700
+date:   2019-12-12 01:38:15 +0700
 categories: [python, django]
 ---
 Add this configurations in your `settings.py`
