@@ -53,3 +53,6 @@ compress_html:
   endings: all
   ignore:
     envs: ['development']
+
+# Disqus settings（https://disqus.com/）添加评论
+disqus_username: joker
