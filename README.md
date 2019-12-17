@@ -70,3 +70,7 @@ image: Broadcast_Mail.png             # (custom) image only for meta `property="
 ### Contributing
 
 Feel free to [open a bug](https://github.com/agusmakmun/agusmakmun.github.io/issues) or [contribute to code](https://github.com/agusmakmun/agusmakmun.github.io/pulls)!
+
+# git提交时报错
+git pull --rebase origin master
+git push
