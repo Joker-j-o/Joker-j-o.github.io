@@ -56,3 +56,7 @@ compress_html:
 
 # Disqus settings（https://disqus.com/）添加评论
 disqus_username: joker
+
+# Featured Tags
+featured-tags: true                     # 是否使用首页标签
+featured-condition-size: 0              # 相同标签数量大于这个数，才会出现在首页 如果将size改为0 那么只有一个也会显示
