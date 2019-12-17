@@ -55,7 +55,7 @@ compress_html:
     envs: ['development']
 
 # Disqus settings（https://disqus.com/）添加评论
-disqus_username: joker
+# disqus_username: joker
 
 # Featured Tags
 featured-tags: true                     # 是否使用首页标签
