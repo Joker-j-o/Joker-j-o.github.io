@@ -14,8 +14,8 @@ I'm Bin&Web Security Researcher
 
 Team：「joker&Love & lsy」
 
-一只在安全道路上的咸鱼，热爱APT，漏洞挖掘，内核对抗
-正在学习RE和Pwn 🏃
+ One in the world Salted fish
+ Learning Python🏃
 
 ## # Friends
 - [碧波](https://6o9.im/)
