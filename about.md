@@ -10,7 +10,7 @@ permalink: /about/
 记录自己成长，也记录自己学习的过程
 
 ## # About me
-I'm Bin&Web Security Researcher
+I'm Joker&Web Security Researcher
 
 Team：「joker&Love & lsy」
 

@@ -84,6 +84,6 @@ daemonize = uwsgi.log
 	8.3 开启域名 80 端口 权限sudo
 		sudo nohup python3 manage.py runserver 0.0.0.0:80
 ```
->。-i https://pypi.tuna.tsinghua.edu.cn/simple # pip加速源
+> -i https://pypi.tuna.tsinghua.edu.cn/simple # pip加速源
 
 hey miss liu this rose is for you
