@@ -231,15 +231,22 @@ docker pull redis:latest
 >> 注意: -itd 后台交互 -p 端口映射关系
 
 ## **Nginx的开启与重启**
+
+```
 > 开启: nginx
 > 开启: service nginx start
 > 重启: nginx -s reload
+```
 
 ### **pip导出所有的依赖**
+```
 > pip freeze > requirenemts.txt
+```
 
 ### **安装所有依赖**
+```
 > pip install -r requirenemts.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 
+```
 
-hey miss liu this rose is for you too
+~~hey miss liu this rose is for you too~~
