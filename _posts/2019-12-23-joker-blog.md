@@ -12,7 +12,8 @@ tags:                               #标签
 
 ## uWSGI Deploy when nginx is not used
 ### uWSGI configuration information uwsgi.ini
-```
+
+```yaml
 [uwsgi]
 ; 监听的端口
 http = :8000 
@@ -45,8 +46,10 @@ pidfile = uwsgi.pid
 ; 设置后台运行，保存日志
 daemonize = uwsgi.log
 ```
+
 ## 将项目拉取到xshell 会使用 docker 配置MySQL
-```
+
+```yaml
 1. 将项目 拉取到xshell
 2. 查看docker是否安装好
 	docker images
@@ -84,6 +87,8 @@ daemonize = uwsgi.log
 	8.3 开启域名 80 端口 权限sudo
 		sudo nohup python3 manage.py runserver 0.0.0.0:80
 ```
+
+### **pip加速源**
 > -i https://pypi.tuna.tsinghua.edu.cn/simple # pip加速源
 
 hey miss liu this rose is for you

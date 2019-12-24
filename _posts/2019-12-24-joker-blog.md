@@ -14,7 +14,7 @@ tags:                               #标签
 
 ## **uWSGI configuration information uwsgi.ini**
 
-```
+```yaml
 [uwsgi]
 ; 监听的端口
 http = :8000 
@@ -50,7 +50,7 @@ daemonize = uwsgi.log
 
 ## **Nginx.conf configuration information**
 
-```
+```yaml
 server {
         listen 80;
         server_name ice.qjnubk.club;
@@ -174,7 +174,7 @@ http {
 > 注意 测试nginx是否开启的时候 关闭uwsgi 在浏览器 输入你的公网ip 默认端口为 80
 
 ## **将项目拉取到xshell 会使用 docker 配置MySQL 配置redis**
-```
+```python
 1. 将项目 拉取到xshell
 2. 查看docker是否安装好
 	docker images
@@ -217,14 +217,14 @@ http {
 > -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 ## **docker MySQL配置 使用的是MySQL:5.7**
-```
+```yaml
 docker pull mysql:5.7
 ```
 > docker run -itd -e MYSQL_ROOT_PASSWORD=youpassword -p 3307:3306 mysql:5.7
 >> 注意: -itd 后台交互, -e 默认用户名 root pwd=youpassword, -p 端口映射 为了远程连接 
 
 ## **docker redis配置 使用的是最新版**
-```
+```yaml
 docker pull redis:latest
 ```
 > docker run -itd -p 6380:6379 redis:latest
@@ -232,21 +232,20 @@ docker pull redis:latest
 
 ## **Nginx的开启与重启**
 
-```
+```yaml
 > 开启: nginx
 > 开启: service nginx start
 > 重启: nginx -s reload
 ```
 
 ### **pip导出所有的依赖**
-```
+```yaml
 > pip freeze > requirenemts.txt
 ```
 
 ### **安装所有依赖**
-```
+```yaml
 > pip install -r requirenemts.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
-
 ```
 
 ~~hey miss liu this rose is for you too~~
