@@ -6,10 +6,10 @@ permalink: /about/
 
 @[TOC]
 
-## # About this Blog
+## About this Blog
 记录自己成长，也记录自己学习的过程
 
-## # About me
+## About me
 I'm Joker&Web Security Researcher
 
 Team：「joker&Love & lsy」

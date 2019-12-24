@@ -1,6 +1,6 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
-title:      project_deploy             # 标题 
+title:      project_deploy_uwsgi             # 标题 
 subtitle:   Joker #副标题
 date:       2019-12-23              # 时间
 author:     Joker                     # 作者
