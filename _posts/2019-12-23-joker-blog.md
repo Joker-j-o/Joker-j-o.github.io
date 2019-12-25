@@ -1,6 +1,6 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
-title:      project_deploy_uwsgi             # 标题 
+title:      Project_deploy_uwsgi             # 标题 
 subtitle:   Joker #副标题
 date:       2019-12-23              # 时间
 author:     Joker                     # 作者
@@ -8,7 +8,7 @@ header-img: static/img/16.jpg    #这篇文章标题背景图片
 catalog: true                       # 是否归档
 tags:                               #标签
 	- project_delopy
-categories: [python, django,project_delopy]
+categories: [project_delopy]
 ---
 
 ## uWSGI Deploy when nginx is not used
