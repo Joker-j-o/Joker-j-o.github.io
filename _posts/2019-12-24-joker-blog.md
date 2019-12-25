@@ -6,8 +6,8 @@ date:       2019-12-24              # 时间
 author:     Joker                     # 作者
 header-img: static/img/16.jpg    #这篇文章标题背景图片
 catalog: true                       # 是否归档
-tags:                               #标签
-	- project
+# tags:                               #标签
+#     - project
 categories: [python, django]
 ---
 
