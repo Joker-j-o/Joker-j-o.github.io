@@ -1,6 +1,6 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
-title:      MySQL master-slave mode            # 标题 
+title:      Mysql read-write separation           # 标题 
 subtitle:   Joker #副标题
 date:       2019-12-26              # 时间
 author:     Joker                     # 作者
