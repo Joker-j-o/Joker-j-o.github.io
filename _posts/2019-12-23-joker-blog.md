@@ -6,7 +6,7 @@ date:       2019-12-23              # 时间
 author:     Joker                     # 作者
 header-img: static/img/16.jpg    #这篇文章标题背景图片
 catalog: true                       # 是否归档
-categories: [python, django]
+categories: [deploy]
 ---
 
 ## uWSGI Deploy when nginx is not used
@@ -90,4 +90,4 @@ daemonize = uwsgi.log
 ### **pip加速源**
 > -i https://pypi.tuna.tsinghua.edu.cn/simple # pip加速源
 
-hey miss liu this rose is for you
+~~Hey Miss Liu This Rose Is For You~~

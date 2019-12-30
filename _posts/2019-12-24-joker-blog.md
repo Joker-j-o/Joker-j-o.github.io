@@ -6,7 +6,7 @@ date:       2019-12-24              # 时间
 author:     Joker                     # 作者
 header-img: static/img/16.jpg    #这篇文章标题背景图片
 catalog: true                       # 是否归档
-categories: [python, django]
+categories: [deploy]
 ---
 
 # **uWSGI and Nginx delopy**
@@ -247,4 +247,18 @@ docker pull redis:latest
 > pip install -r requirenemts.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
-~~hey miss liu this rose is for you too~~
+# **关于安全组 腾讯云 阿里云**
+```yaml
+腾讯云:
+	TCP:8000
+	0.0.0.0/0
+	...
+阿里云:
+	8000/8000
+	0.0.0.0/0
+	...
+# 将你要使用的端口 映射出来...
+```
+
+
+~~Hey Miss Liu This Rose Is For You~~
