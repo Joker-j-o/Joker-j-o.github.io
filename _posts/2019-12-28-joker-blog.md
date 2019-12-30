@@ -11,15 +11,17 @@ categories: [python,django]
 
 # **Create Python-Virtualenv in Windows10**
 This is the PIP acceleration `-i https://pypi.tuna.tsinghua.edu.cn/simple`
----
+
 ## *Why build a virtual environment?*
 
-Because: `If you want to develop several different projects on one computer, you need to use different versions of the same package. If you use the above command and install or update in the same directory, the new version will overwrite the previous version, and the other projects will not run.`
----
+Because: `If you want to develop several different projects on one computer, `
+`you need to use different versions of the same package. `
+`If you use the above command and install or update in the same directory, `
+`the new version will overwrite the previous version, and the other projects will not run.` 
 
 # Create Virtualenv in Linux
 
-```python
+```s
 # Open a terminal
 sudo pip3 install virtualenv
 sudo pip3 install virtualenvwrapper
@@ -32,11 +34,13 @@ sudo pip3 install virtualenvwrapper
 pip3 install virtualenv
 pip3 install virtualenvwrapper-win
 ```
-This is installing the virtual environment
----
+> This is installing the virtual environment
+
 
 # **In Linux**
-`After installing the virtual environment, if the mkvirtualenv command cannot be found, the environment variable must be configured:`
+`After installing the virtual environment, `
+`if the mkvirtualenv command cannot be found,`
+`the environment variable must be configured:`
 ```s
 # 1. Create a directory to hold the virtual environment
 mkdir $HOME/.virtualenvs
@@ -65,9 +69,6 @@ workon ...
 case:
 workon py3_django
 ```
-In Linux
----
-
 # **In Windows10**
 
 `Use git bash if you know  how to use git bash`
@@ -84,8 +85,7 @@ source py3_django/Scripts/activate
 ```
 [CMD command](https://www.cnblogs.com/accumulater/p/7110811.html)
 [Git Install](https://git-scm.com/)
-Creating a virtual environment
----
+> Creating a virtual environment
 
 # **Use workon in CMD**
 
