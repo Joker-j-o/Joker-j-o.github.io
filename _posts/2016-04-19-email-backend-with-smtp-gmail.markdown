@@ -26,7 +26,7 @@ EMAIL_BACKEND       = 'django.core.mail.backends.smtp.EmailBackend'
 <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
 <script>
 var gitment = new Gitment({
-    owner: 'Joker',
+    owner: '1906244925@qq.com',
     repo: 'joker-j-o',
     oauth: {
         client_id: '02d65d2354511830d4ae',
