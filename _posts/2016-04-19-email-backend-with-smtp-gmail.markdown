@@ -20,3 +20,18 @@ EMAIL_USE_TLS       = True
 DEFAULT_FROM_EMAIL  = EMAIL_HOST_USER
 EMAIL_BACKEND       = 'django.core.mail.backends.smtp.EmailBackend'
 ```
+
+<div id="gitmentContainer"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+    owner: 'joker',
+    repo: 'joker',
+    oauth: {
+        client_id: '02d65d2354511830d4ae',
+        client_secret: '5f7ed7ebfc8c4941233321d932219cd576333c29',
+    },
+});
+gitment.render('gitmentContainer');
+</script>
