@@ -74,3 +74,22 @@ Feel free to [open a bug](https://github.com/agusmakmun/agusmakmun.github.io/iss
 # git提交时报错
 git pull --rebase origin master
 git push
+
+```
+github comment
+
+<div id="gitmentContainer"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+    owner: '1906244925@qq.com',
+    repo: 'joker',
+    oauth: {
+        client_id: '02d65d2354511830d4ae',
+        client_secret: '5f7ed7ebfc8c4941233321d932219cd576333c29',
+    },
+});
+gitment.render('gitmentContainer');
+</script>
+```
