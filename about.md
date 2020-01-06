@@ -20,4 +20,5 @@ Team：「joker&Love & lsy」
 ## # Friends
 - [碧波](https://6o9.im/)
 
-📧 email: <theye007[at]gmail.com>
+📧 email: <1906244925@qq.com>
+💂‍♂️ QQ: `1906244925`

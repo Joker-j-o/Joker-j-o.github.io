@@ -12,7 +12,7 @@ categories: [deploy]
 ## uWSGI Deploy when nginx is not used
 ### uWSGI configuration information uwsgi.ini
 
-```yaml
+```s
 [uwsgi]
 ; 监听的端口
 http = :8000 
@@ -48,7 +48,7 @@ daemonize = uwsgi.log
 
 ## 将项目拉取到xshell 会使用 docker 配置MySQL
 
-```yaml
+```s
 1. 将项目 拉取到xshell
 2. 查看docker是否安装好
 	docker images
@@ -88,6 +88,6 @@ daemonize = uwsgi.log
 ```
 
 ### **pip加速源**
-> -i https://pypi.tuna.tsinghua.edu.cn/simple # pip加速源
+pip国内:`-i https://pypi.tuna.tsinghua.edu.cn/simple`
 
 ~~Hey Miss Liu This Rose Is For You~~

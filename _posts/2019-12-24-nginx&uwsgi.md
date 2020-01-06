@@ -13,7 +13,7 @@ categories: [deploy]
 
 ## **uWSGI configuration information uwsgi.ini**
 
-```yaml
+```s
 [uwsgi]
 ; 监听的端口
 http = :8000 
@@ -49,7 +49,7 @@ daemonize = uwsgi.log
 
 ## **Nginx.conf configuration information**
 
-```yaml
+```s
 server {
         listen 80;
         server_name ice.qjnubk.club;
@@ -173,7 +173,7 @@ http {
 > 注意 测试nginx是否开启的时候 关闭uwsgi 在浏览器 输入你的公网ip 默认端口为 80
 
 ## **将项目拉取到xshell 会使用 docker 配置MySQL 配置redis**
-```python
+```s
 1. 将项目 拉取到xshell
 2. 查看docker是否安装好
 	docker images
@@ -213,10 +213,10 @@ http {
 ```
 
 ### **pip加速源**
-> -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip国内:`-i https://pypi.tuna.tsinghua.edu.cn/simple`
 
 ## **docker MySQL配置 使用的是MySQL:5.7**
-```yaml
+```s
 docker pull mysql:5.7
 ```
 > docker run -itd -e MYSQL_ROOT_PASSWORD=youpassword -p 3307:3306 mysql:5.7
@@ -231,24 +231,24 @@ docker pull redis:latest
 
 ## **Nginx的开启与重启**
 
-```yaml
+```s
 > 开启: nginx
 > 开启: service nginx start
 > 重启: nginx -s reload
 ```
 
 ### **pip导出所有的依赖**
-```yaml
+```s
 > pip freeze > requirenemts.txt
 ```
 
 ### **安装所有依赖**
-```yaml
+```s
 > pip install -r requirenemts.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
 # **关于安全组 腾讯云 阿里云**
-```yaml
+```s
 腾讯云:
 	TCP:8000
 	0.0.0.0/0
