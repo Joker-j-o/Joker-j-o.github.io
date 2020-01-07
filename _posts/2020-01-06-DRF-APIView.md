@@ -158,10 +158,5 @@ class BookDetailView(APIView):
         - 默认异常处理 会将视图中出现的异常 处理成合适响应 返回给客户端
     - other: `其他: 认证/权限/限流`
 
-list | list | list
-----|------|----
-row1 | row2  | row3
-row1 | row2  | row3
-row1 | row2  | row3
 
 ~~Hey Miss Liu This Rose Is For You~~
