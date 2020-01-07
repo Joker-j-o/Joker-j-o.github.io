@@ -1,17 +1,17 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
-title:      Python-DRF-Frame-ModelViewSet(视图集)           # 标题 
+title:      Python-DRF-Frame-ModelViewSet(高配视图集)           # 标题 
 subtitle:   Joker #副标题
 date:       2020-01-07              # 时间
 author:     Joker                     # 作者
 header-img: static/img/16.jpg    #这篇文章标题背景图片
 catalog: true                       # 是否归档
-categories: [serializer]
+categories: [DRF-serializer]
 ---
 
 # `ModelViewSet 改写 Rest API`
 
-### `特点: 继承自GenericViewSet，同时包括了ListModelMixin、RetrieveModelMixin、CreateModelMixin、UpdateModelMixin、DestroyModelMixin。`
+特点: `继承自GenericViewSet`，同时包括了`ListModelMixin`、`RetrieveModelMixin`、`CreateModelMixin`、`UpdateModelMixin`、`DestroyModelMixin。`
 
 ```python
 

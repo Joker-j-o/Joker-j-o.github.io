@@ -6,7 +6,7 @@ date:       2020-01-06              # 时间
 author:     Joker                     # 作者
 header-img: static/img/16.jpg    #这篇文章标题背景图片
 catalog: true                       # 是否归档
-categories: [serializer]
+categories: [DRF-serializer]
 ---
 
 # GenericAPIView介绍

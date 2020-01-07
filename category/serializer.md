@@ -2,5 +2,5 @@
 layout: posts_by_category
 categories: DRF-serializer
 title: Serializer
-permalink: /category/serializer
+permalink: /category/DRF-serializer
 ---

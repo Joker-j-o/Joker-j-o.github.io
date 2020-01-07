@@ -1,12 +1,12 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
-title:      Python-DRF-Frame-GenericViewSet(视图集)           # 标题 
+title:      Python-DRF-Frame-GenericViewSet(中配视图集)           # 标题 
 subtitle:   Joker #副标题
 date:       2020-01-07              # 时间
 author:     Joker                     # 作者
 header-img: static/img/16.jpg    #这篇文章标题背景图片
 catalog: true                       # 是否归档
-categories: [serializer]
+categories: [DRF-serializer]
 ---
 
 # `使用GenericViewSet 改写 Rest API`
@@ -49,7 +49,7 @@ urlpatterns = [
 
 `每个版本不一样 建议都试一下`
 
-# [ModelViewSet(高配)进阶版]()
+# [ModelViewSet(高配)进阶版](https://joker-j-o.github.io/serializer/2020/01/07/03DRF-ModelViewSet.html)
 
 
 
