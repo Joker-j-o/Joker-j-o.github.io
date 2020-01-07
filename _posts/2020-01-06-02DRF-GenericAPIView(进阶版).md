@@ -222,5 +222,9 @@ serializer = self.get_serializer(queryset, many=True)
          - 方法: `get_queryset` & `get_object`
       - 其他: 过滤 & 分页
 
+`每个版本不一样 建议都试一下`
+
+# [Mixin扩展类进阶版](https://joker-j-o.github.io/drf-serializer/2020/01/06/DRF-Mixin.html)
+
 
 ~~Hey Miss Liu This Rose Is For You~~

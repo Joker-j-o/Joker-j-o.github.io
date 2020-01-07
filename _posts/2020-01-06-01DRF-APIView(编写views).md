@@ -160,5 +160,8 @@ class BookDetailView(APIView):
         - 默认异常处理 会将视图中出现的异常 处理成合适响应 返回给客户端
     - other: `其他: 认证/权限/限流`
 
+`每个版本不一样 建议都试一下`
+
+# [GenericAPIView进阶版](https://joker-j-o.github.io/drf-serializer/2020/01/06/DRF-GenericAPIView.html)
 
 ~~Hey Miss Liu This Rose Is For You~~

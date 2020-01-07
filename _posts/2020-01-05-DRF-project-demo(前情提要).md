@@ -172,10 +172,9 @@ insert into tb_heros(hname,hgender,hbook_id,hcomment,is_delete) values
 ('袁紫衣',0,4,'六合拳',0);
 ```
 
+`每个版本不一样 建议都试一下`
 
 # [APIView使用](https://joker-j-o.github.io/python/django/2020/01/06/DRF-APIView.html)
-
-
 
 
 ~~Hey Miss Liu This Rose Is For You~~
