@@ -174,7 +174,7 @@ insert into tb_heros(hname,hgender,hbook_id,hcomment,is_delete) values
 
 `每个版本不一样 建议都试一下`
 
-# [APIView使用](https://joker-j-o.github.io/python/django/2020/01/06/DRF-APIView.html)
+# [APIView(初版)](https://joker-j-o.github.io/drf-serializer/2020/01/06/01DRF-APIView(%E7%BC%96%E5%86%99views).html)
 
 
 ~~Hey Miss Liu This Rose Is For You~~

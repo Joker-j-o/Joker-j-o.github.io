@@ -49,7 +49,7 @@ urlpatterns = [
 
 `每个版本不一样 建议都试一下`
 
-# [ModelViewSet(高配)进阶版](https://joker-j-o.github.io/serializer/2020/01/07/03DRF-ModelViewSet.html)
+# [ModelViewSet(高配)进阶版](https://joker-j-o.github.io/drf-serializer/2020/01/07/03DRF-ModelViewSet.html)
 
 
 

@@ -162,6 +162,6 @@ class BookDetailView(APIView):
 
 `每个版本不一样 建议都试一下`
 
-# [GenericAPIView进阶版](https://joker-j-o.github.io/drf-serializer/2020/01/06/DRF-GenericAPIView.html)
+# [GenericAPIView进阶版](https://joker-j-o.github.io/drf-serializer/2020/01/06/02DRF-GenericAPIView(%E8%BF%9B%E9%98%B6%E7%89%88).html)
 
 ~~Hey Miss Liu This Rose Is For You~~
