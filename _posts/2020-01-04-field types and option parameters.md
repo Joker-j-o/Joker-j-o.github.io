@@ -2,11 +2,11 @@
 layout:     post                    # 使用的布局（不需要改）
 title:      Python-DRF-Frame-field types and option parameters           # 标题 
 subtitle:   Joker #副标题
-date:       2020-01-06              # 时间
+date:       2020-01-04              # 时间
 author:     Joker                     # 作者
 header-img: static/img/16.jpg    #这篇文章标题背景图片
 catalog: true                       # 是否归档
-categories: [python,django]
+categories: [DRF-serializer]
 ---
 
 # 常用字段类型

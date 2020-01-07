@@ -83,8 +83,11 @@ virtualenv -p python py3_django
 source py3_django/Scripts/activate
 
 ```
+
 [CMD command](https://www.cnblogs.com/accumulater/p/7110811.html)
+
 [Git Install](https://git-scm.com/)
+
 > Creating a virtual environment
 
 # **Use workon in CMD**

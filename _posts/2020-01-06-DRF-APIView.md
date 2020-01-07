@@ -6,7 +6,7 @@ date:       2020-01-06              # 时间
 author:     Joker                     # 作者
 header-img: static/img/16.jpg    #这篇文章标题背景图片
 catalog: true                       # 是否归档
-categories: [python,django]
+categories: [DRF-serializer]
 ---
 
 # APIView?
@@ -58,7 +58,9 @@ class GoodsView(APIView):
 1. `application/json`: 服务器会将`原始响应数据转换为json数据`进行返回,如果没有指定`Accept`时, 默认返回的就是`json`
 2. `text/html`: 服务器会将`原始响应数据转换为html网页`进行返回
 
-# 根据继承APIView 改写的RestAPI
+# 根据继承APIView 写的RestAPI
+
+`views.py`
 
 ```python
 from rest_framework.views import APIView
