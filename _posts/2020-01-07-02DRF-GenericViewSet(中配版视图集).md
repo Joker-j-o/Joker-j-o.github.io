@@ -1,6 +1,6 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
-title:      Python-DRF-Frame-GenericViewSet(中配视图集)           # 标题 
+title:      Python-DRF-Frame-GenericViewSet(中配视图集v1.4)           # 标题 
 subtitle:   Joker #副标题
 date:       2020-01-07              # 时间
 author:     Joker                     # 作者
@@ -45,11 +45,11 @@ urlpatterns = [
 ]
 ```
 
-
+> 注意: `as_view({'key':'value'})` 根据`key值` 找到`相对应`的`请求方法`
 
 `每个版本不一样 建议都试一下`
 
-# [ModelViewSet(高配)进阶版](https://joker-j-o.github.io/drf-serializer/2020/01/07/03DRF-ModelViewSet.html)
+# [ModelViewSet-v1.6](https://joker-j-o.github.io/drf-serializer/2020/01/07/03DRF-ModelViewSet.html)
 
 
 

@@ -12,7 +12,7 @@ permalink: /about/
 ## About me
 I'm Joker&Web Security Researcher
 
-Team：「joker&Love & lsy」
+Team：「[joker](https://joker-j-o.github.io/about/)&Love & [lsy](https://joker-j-o.github.io)」
 
  One in the world Salted fish
  Learning Python🏃

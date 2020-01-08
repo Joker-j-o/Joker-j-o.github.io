@@ -1,6 +1,6 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
-title:      Python-DRF-Frame-APIView           # 标题 
+title:      Python-DRF-Frame-APIView(视图)           # 标题 
 subtitle:   Joker #副标题
 date:       2020-01-06              # 时间
 author:     Joker                     # 作者
@@ -162,6 +162,6 @@ class BookDetailView(APIView):
 
 `每个版本不一样 建议都试一下`
 
-# [GenericAPIView进阶版](https://joker-j-o.github.io/drf-serializer/2020/01/06/02DRF-GenericAPIView(%E8%BF%9B%E9%98%B6%E7%89%88).html)
+# [GenericAPIView-v1.1](https://joker-j-o.github.io/drf-serializer/2020/01/06/02DRF-GenericAPIView(%E8%BF%9B%E9%98%B6%E7%89%88).html)
 
 ~~Hey Miss Liu This Rose Is For You~~

@@ -1,6 +1,6 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
-title:      Python-DRF-project-demo-APIView版本           # 标题 
+title:      Python-DRF-project-demo-APIView(前情提要部分)           # 标题 
 subtitle:   Joker #副标题
 date:       2020-01-05              # 时间
 author:     Joker                     # 作者
@@ -174,7 +174,7 @@ insert into tb_heros(hname,hgender,hbook_id,hcomment,is_delete) values
 
 `每个版本不一样 建议都试一下`
 
-# [APIView(初版)](https://joker-j-o.github.io/drf-serializer/2020/01/06/01DRF-APIView(%E7%BC%96%E5%86%99views).html)
+# [APIView-v1](https://joker-j-o.github.io/drf-serializer/2020/01/06/01DRF-APIView(%E7%BC%96%E5%86%99views).html)
 
 
 ~~Hey Miss Liu This Rose Is For You~~

@@ -1,6 +1,6 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
-title:      Python-DRF-Frame-ModelViewSet(高配视图集)           # 标题 
+title:      Python-DRF-Frame-ModelViewSet(高配视图集v1.5)           # 标题 
 subtitle:   Joker #副标题
 date:       2020-01-07              # 时间
 author:     Joker                     # 作者
@@ -41,6 +41,12 @@ urlpatterns = [
     }))
 ]
 ```
+
+> 注意: `as_view({'key':'value'})` 根据`key值` 找到`相对应`的`请求方法`
+
+# `ReadOnlyModelViewSet`
+
+> 继承自`GenericViewSet`，同时包括了`ListModelMixin`、`RetrieveModelMixin`。
 
 
 

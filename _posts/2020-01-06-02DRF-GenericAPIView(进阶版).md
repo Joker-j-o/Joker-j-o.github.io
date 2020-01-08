@@ -1,6 +1,6 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
-title:      Python-DRF-Frame-GenericAPIView           # 标题 
+title:      Python-DRF-Frame-GenericAPIView(v1)           # 标题 
 subtitle:   Joker #副标题
 date:       2020-01-06              # 时间
 author:     Joker                     # 作者
@@ -224,7 +224,7 @@ serializer = self.get_serializer(queryset, many=True)
 
 `每个版本不一样 建议都试一下`
 
-# [Mixin扩展类进阶版](https://joker-j-o.github.io/drf-serializer/2020/01/06/03DRF-Mixin(%E8%BF%9B%E9%98%B6%E7%89%88).html)
+# [Mixin-v1.2](https://joker-j-o.github.io/drf-serializer/2020/01/06/03DRF-Mixin(%E8%BF%9B%E9%98%B6%E7%89%88).html)
 
 
 ~~Hey Miss Liu This Rose Is For You~~
