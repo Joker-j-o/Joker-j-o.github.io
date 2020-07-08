@@ -93,30 +93,46 @@ layout: default
   </script>
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/2662419405/CDN/pio.css" />
 
-  <style type="text/css">
-    #back-top {
+  <span id="top"></span>
+  <style>
+    #top {
       width: 40px;
       height: 40px;
+      background: url("static/favicon.ico") no-repeat;
       position: fixed;
-      bottom: 40px;
-      right: 20px;
-      border: solid gray;
-      text-align: center;
-      font-size: 14px;
-      cursor: pointer;
+      right: 10px;
+      bottom: 10px;
+      -webkit-background-size: 100%;
+      background-size: 100%;
+      display: none;
     }
   </style>
-  <script src="jquery-3.4.1.js"></script>
-  <div id="back-top">回到顶部</div>
   <script>
-    $(function () {
-      $('#back-top').click(function () {
-        // html，body取并级，处理浏览器兼容
-        $("html,body").animate({
-          scrollTop: 0,
-          screenLeft: 0,
-        }, 400);
-      });
-    });
+    window.onload = function () {
+      var scrollTop = 0;
+      var span = document.getElementById("top");
+      var timer = null, begin = 0, end = 0;
+      window.onscroll = function () {
+        scrollTop = scroll().top;
+        if (scrollTop <= 0) {
+          span.style.display = "none";
+        } else
+          span.style.display = "block";
+        begin = scrollTop;
+      }
+      $("top").onclick = function () {
+        clearInterval(timer);
+        timer = setInterval(function () {
+          begin = begin + (end - begin) * 0.2;
+          window.scrollTo(0, begin);
+          if (parseInt(begin) === end) {
+            clearInterval(timer);
+          }
+        }, 20);
+
+      }
+    }
   </script>
+
+
 </div>
