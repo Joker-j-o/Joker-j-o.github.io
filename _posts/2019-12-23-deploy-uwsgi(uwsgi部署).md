@@ -9,6 +9,8 @@ catalog: true                       # 是否归档
 categories: [deploy]
 ---
 
+[toc]
+
 ## uWSGI Deploy when nginx is not used
 ### uWSGI configuration information uwsgi.ini
 

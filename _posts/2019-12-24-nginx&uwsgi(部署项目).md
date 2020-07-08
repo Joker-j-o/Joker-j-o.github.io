@@ -9,6 +9,8 @@ catalog: true                       # 是否归档
 categories: [deploy]
 ---
 
+[toc]
+
 # **uWSGI and Nginx delopy**
 
 ## **uWSGI configuration information uwsgi.ini**

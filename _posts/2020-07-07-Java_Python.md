@@ -8,10 +8,8 @@ header-img: static/img/16.jpg    #这篇文章标题背景图片
 catalog: true                       # 是否归档
 categories: [python, django]
 ---
-<!-- TOC -->
-autoauto- [<font color="red">AsinSeedApi</font>](#font-colorredasinseedapifont)auto        - [<font color="blue">不写注释的程序员-加密</font>](#font-colorblue不写注释的程序员-加密font)auto        - [<font color="blue">将JAVA API接口 改写成 Python</font>](#font-colorblue将java-api接口-改写成-pythonfont)auto        - [<font color=" \#7B68EE ">JAVA</font>](#font-color-\7b68ee-javafont)auto        - [<font color=" \#7B68EE ">Python</font>](#font-color-\7b68ee-pythonfont)autoauto
 
-<!-- /TOC -->
+[toc]
 
 #  <font color="red">AsinSeedApi</font>
 
