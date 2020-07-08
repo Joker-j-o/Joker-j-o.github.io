@@ -6,8 +6,12 @@ date:       2020-07-07              # 时间
 author:     Joker                     # 作者
 header-img: static/img/16.jpg    #这篇文章标题背景图片
 catalog: true                       # 是否归档
-categories: [python,django]
+categories: [python, django]
 ---
+<!-- TOC -->
+autoauto- [<font color="red">AsinSeedApi</font>](#font-colorredasinseedapifont)auto        - [<font color="blue">不写注释的程序员-加密</font>](#font-colorblue不写注释的程序员-加密font)auto        - [<font color="blue">将JAVA API接口 改写成 Python</font>](#font-colorblue将java-api接口-改写成-pythonfont)auto        - [<font color=" \#7B68EE ">JAVA</font>](#font-color-\7b68ee-javafont)auto        - [<font color=" \#7B68EE ">Python</font>](#font-color-\7b68ee-pythonfont)autoauto
+
+<!-- /TOC -->
 
 #  <font color="red">AsinSeedApi</font>
 
@@ -17,7 +21,7 @@ categories: [python,django]
 
 ###  <font color=" \#7B68EE ">JAVA</font>
 
-```java
+``` java
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
@@ -93,7 +97,7 @@ public class AsinSeedApiTest {
 
 ###  <font color=" \#7B68EE ">Python</font>
 
-```python
+``` python
 class AsinSeedApiTest:
     HEX_CHAR = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f']
     PARTNER_CODE = PARTNER_CODE
