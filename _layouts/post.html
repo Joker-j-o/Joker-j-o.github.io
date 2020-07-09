@@ -81,6 +81,48 @@ layout: default
     /* ]]> */
   </script>
 
+  <div id="backtop">
+    <a href="#">TOP</a>
+  </div>
+  <style>
+    #backtop a {
+      /* back to top button */
+      text-align: center;
+      line-height: 50px;
+      font-size: 16px;
+      width: 50px;
+      height: 50px;
+      position: fixed;
+      bottom: 10px;
+      /* 小按钮到浏览器底边的距离 */
+      right: 60px;
+      /* 小按钮到浏览器右边框的距离 */
+      color: rgb(64, 120, 192);
+      /* 小按钮中文字的颜色 */
+      z-index: 1000;
+      background: #fff;
+      /* 小按钮底色 */
+      padding: auto;
+      /* 小按钮中文字到按钮边缘的距离 */
+      border-radius: 50px;
+      /* 小按钮圆角的弯曲程度（半径）*/
+      -moz-border-radius: 50px;
+      -webkit-border-radius: 50px;
+      font-weight: bold;
+      /* 小按钮中文字的粗细 */
+      text-decoration: none !important;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, .15), 0 1px 0 #ffffff inset;
+    }
+
+    #backtop a:hover {
+      /* 小按钮上有鼠标悬停时 */
+      background: rgba(64, 120, 192, 0.8);
+      /* 小按钮的底色 */
+      color: #fff;
+      /* 文字颜色 */
+    }
+  </style>
+
   <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
   <script
     src="https://cdn.jsdelivr.net/gh/BNDong/Cnblogs-Theme-SimpleMemory@v1.2.0/src/script/simpleMemory.min.js"></script>
@@ -92,37 +134,4 @@ layout: default
     daovoice('update');
   </script>
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/2662419405/CDN/pio.css" />
-
-  <div>
-    <a href="javascript:;" id="btn" title="回到顶部" style="width:50px; 
-         height:50px; position:fixed; right:50px; bottom:10px; 
-         background:url('http://images.cnblogs.com/cnblogs_com/Emily-m/1491484/o_%E4%BF%A1%E5%B0%81.png') no-repeat;">
-    </a>
-  </div>
-
-  <script type="text/javascript" str="https://cdn.bootcss.com/jquery/3.4.1/jquery.js">
-    $(document).ready(function () {
-      //首先将#btn隐藏
-      $("#btn").hide();
-      //当滚动条的位置处于距顶部50像素以下时，跳转链接出现，否则消失
-      $(function () {
-        $(window).scroll(function () {
-          if ($(window).scrollTop() > 50) {
-            $("#btn").fadeIn(200);
-          } else {
-            $("#btn").fadeOut(200);
-          }
-        });
-        //当点击跳转链接后，回到页面顶部位置
-        $("#btn").click(function () {
-          $('body,html').animate({
-            scrollTop: 0
-          },
-            500);
-          return false;
-        });
-      });
-    });
-  </script>
-
 </div>

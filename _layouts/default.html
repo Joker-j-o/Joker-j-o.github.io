@@ -171,14 +171,6 @@ layout: compress
     <!-- end /.col-sm-8 -->
   </div>
   <!-- end /.container -->
-
-  <div>
-    <a href="javascript:;" id="btn" title="回到顶部" style="width:50px; 
-         height:50px; position:fixed; right:50px; bottom:10px; 
-         background:url('http://images.cnblogs.com/cnblogs_com/Emily-m/1491484/o_%E4%BF%A1%E5%B0%81.png') no-repeat;">
-    </a>
-  </div>
-
   <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
   <script
     src="https://cdn.jsdelivr.net/gh/BNDong/Cnblogs-Theme-SimpleMemory@v1.2.0/src/script/simpleMemory.min.js"></script>
@@ -203,28 +195,3 @@ layout: compress
 </body>
 
 </html>
-<script type="text/javascript" str="/static/js/jquery-1.11.0.min.js">
-  console.log("lkjhgfdsa")
-  $(document).ready(function () {
-    //首先将#btn隐藏
-    $("#btn").hide();
-    //当滚动条的位置处于距顶部50像素以下时，跳转链接出现，否则消失
-    $(function () {
-      $(window).scroll(function () {
-        if ($(window).scrollTop() > 50) {
-          $("#btn").fadeIn(200);
-        } else {
-          $("#btn").fadeOut(200);
-        }
-      });
-      //当点击跳转链接后，回到页面顶部位置
-      $("#btn").click(function () {
-        $('body,html').animate({
-          scrollTop: 0
-        },
-          500);
-        return false;
-      });
-    });
-  });
-</script>
