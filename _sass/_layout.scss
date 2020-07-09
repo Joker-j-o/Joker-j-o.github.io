@@ -92,8 +92,6 @@
     }
 }
 
-
-
 /**
  * Site footer
  */
@@ -128,29 +126,29 @@
 
 .footer-col-1 {
     width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
+    width: calc(35% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-2 {
     width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
+    width: calc(20% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-3 {
     width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
+    width: calc(45% - (#{$spacing-unit} / 2));
 }
 
 @include media-query($on-laptop) {
     .footer-col-1,
     .footer-col-2 {
         width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-        width:         calc(50% - (#{$spacing-unit} / 2));
+        width: calc(50% - (#{$spacing-unit} / 2));
     }
 
     .footer-col-3 {
         width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
+        width: calc(100% - (#{$spacing-unit} / 2));
     }
 }
 
@@ -158,11 +156,9 @@
     .footer-col {
         float: none;
         width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
+        width: calc(100% - (#{$spacing-unit} / 2));
     }
 }
-
-
 
 /**
  * Page content
@@ -193,8 +189,6 @@
     display: block;
     font-size: 24px;
 }
-
-
 
 /**
  * Posts
@@ -241,22 +235,20 @@
     }
 }
 
-
-.scroll-nav__list, .scroll-nav__sub-list {
+.scroll-nav__list,
+.scroll-nav__sub-list {
     margin: 0;
     padding-left: 1.4em;
     list-style-type: none;
     line-height: 20px;
-  }
-  
-  
-  
-  .scroll-nav__item {
+}
+
+.scroll-nav__item {
     margin-bottom: 5px;
     list-style-type: none;
-  }
-  
-  .scroll-nav__item--active > a {
+}
+
+.scroll-nav__item--active > a {
     //padding: 5px;
     font-weight: bold;
     position: relative;
@@ -264,15 +256,15 @@
     //background: $red;
     text-decoration: none;
     //transition: 0.5s;
-    &:hover{
-        color:$black
+    &:hover {
+        color: $black;
     }
-  }
-  
-  .scroll-nav__link {
+}
+
+.scroll-nav__link {
     color: $black;
     text-decoration: none;
     //display: block;
     //margin: 0 auto;
     //padding-left: 42px;
-  }
+}
