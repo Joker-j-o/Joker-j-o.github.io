@@ -1,3 +1,15 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [<font color="red">AsinSeedApi</font>](#font-colorredasinseedapifont)
+    - [<font color="blue">不写注释的程序员-加密</font>](#font-colorblue%E4%B8%8D%E5%86%99%E6%B3%A8%E9%87%8A%E7%9A%84%E7%A8%8B%E5%BA%8F%E5%91%98-%E5%8A%A0%E5%AF%86font)
+    - [<font color="blue">将JAVA API接口 改写成 Python</font>](#font-colorblue%E5%B0%86java-api%E6%8E%A5%E5%8F%A3-%E6%94%B9%E5%86%99%E6%88%90-pythonfont)
+    - [<font color=" \#7B68EE ">JAVA</font>](#font-color-%5C7b68ee-javafont)
+    - [<font color=" \#7B68EE ">Python</font>](#font-color-%5C7b68ee-pythonfont)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ---
 layout:     post                    # 使用的布局（不需要改）
 title:      Java_Python           # 标题 

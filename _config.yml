@@ -40,7 +40,6 @@ paginate: 20
 per_page: 20
 paginate_path: "/page/:num/"
 markdown: kramdown
-toc_levels: h1
 kramdown:
     input:  GFM
 gems:
