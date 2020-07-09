@@ -9,8 +9,6 @@ catalog: true                       # 是否归档
 categories: [python,django]
 ---
 
-[toc]
-
 # **Mysql read-write separation**
 # **[官方文档](https://docs.djangoproject.com/en/dev/topics/db/multi-db/)**
 ```python
@@ -61,5 +59,3 @@ class MasterSlaveDBRouter(object):
         return True
 
 ```
-
-~~Hey Miss Liu This Rose Is For You~~

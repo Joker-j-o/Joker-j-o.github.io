@@ -9,8 +9,6 @@ catalog: true                       # 是否归档
 categories: [deploy]
 ---
 
-[toc]
-
 # **uWSGI and Nginx delopy**
 
 ## **uWSGI configuration information uwsgi.ini**
@@ -261,6 +259,3 @@ docker pull redis:latest
 	...
 # 将你要使用的端口 映射出来...
 ```
-
-
-~~Hey Miss Liu This Rose Is For You~~

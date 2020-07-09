@@ -9,8 +9,6 @@ catalog: true                       # 是否归档
 categories: [deploy]
 ---
 
-[toc]
-
 ## uWSGI Deploy when nginx is not used
 ### uWSGI configuration information uwsgi.ini
 
@@ -92,4 +90,3 @@ daemonize = uwsgi.log
 ### **pip加速源**
 pip国内:`-i https://pypi.tuna.tsinghua.edu.cn/simple`
 
-~~Hey Miss Liu This Rose Is For You~~
