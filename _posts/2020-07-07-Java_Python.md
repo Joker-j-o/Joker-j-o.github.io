@@ -9,7 +9,7 @@ catalog: true                       # 是否归档
 categories: [python, django]
 ---
 
-* any list
+[TOc]
 
 #  <font color="red">AsinSeedApi</font>
 
