@@ -10,9 +10,9 @@ permalink: /about/
 记录自己成长，也记录自己学习的过程
 
 ## About me
-I'm Joker&Web Security Researcher
+I'm Bree & Web Security Researcher
 
-Team：「[joker](https://joker-j-o.github.io/about/)&Love & [Python](https://joker-j-o.github.io)」
+Team：「[Bree](https://joker-j-o.github.io/about/)&Love & [Python](https://joker-j-o.github.io)」
 
  One in the world Salted fish
  Learning Python🏃

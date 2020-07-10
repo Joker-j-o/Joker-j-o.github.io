@@ -1,9 +1,9 @@
 title: ALL POSTS 📖
-description: joker Record life 🎬
-author: joker
+description: Bree Record life 🎬
+author: Bree
 github: https://github.com/Joker-j-o
 # about: 「joker&Web Security Researcher」
-about: 「joker&Web Python after end」
+about: 「 Bree & Web Python after end 」
 avatar_url: /static/img/1012576.jpg
 
 enableTags: true
@@ -33,6 +33,8 @@ urls:
       url: /category/security
     - text: XML Feed 🧾
       url: /feed.xml
+    - text: TOOLS
+      url: https://devhints.io/
 
 url: "https://joker-j-o.github.io"
 baseurl: ""
