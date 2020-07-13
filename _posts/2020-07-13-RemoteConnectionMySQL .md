@@ -9,10 +9,6 @@ catalog: true            # 是否归档
 categories: [python, django]
 ---
 
-
-
-
-
 # <font color="LightGreen">windows 下 使用 navicat 远程连接MySQL</font>
 
 #### Tip:
@@ -23,13 +19,13 @@ categories: [python, django]
 
 
 
-##  <font color=" LightSteelBlue ">1. 登录远程MySQL</font>
+###  <font color=" LightSteelBlue ">1. 登录远程MySQL</font>
 
 ```shell
 mysql -uroot -p
 ```
 
-##  <font color=" LightSteelBlue ">2. 授权</font>
+###  <font color=" LightSteelBlue ">2. 授权</font>
 
 ```bash
 案例:
@@ -38,17 +34,19 @@ GRANT ALL PRIVILEGES ON *.* TO '你的名字(root)'@'%' IDENTIFIED BY 'YourPassw
 GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'Bree' WITH GRANT OPTION;
 ```
 
-##  <font color=" LightSteelBlue ">3. 刷新权限</font>
+###  <font color=" LightSteelBlue ">3. 刷新权限</font>
 
 ```bash
 FLUSH PRIVILEGES;
 ```
 
-##  <font color=" LightSteelBlue ">4. 查看权限是否通过</font>
+###  <font color=" LightSteelBlue ">4. 查看权限是否通过</font>
 
 ```shell
 SELECT DISTINCT CONCAT('User: ''',user,'''@''',host,''';') AS query FROM mysql.user;
 ```
+
+
 
 > 权限通过结果
 
@@ -64,13 +62,13 @@ SELECT DISTINCT CONCAT('User: ''',user,'''@''',host,''';') AS query FROM mysql.u
 +-------------------------------------------------------+
 ```
 
-##  <font color=" LightSteelBlue ">5. 退出数据库</font>
+###  <font color=" LightSteelBlue ">5. 退出数据库</font>
 
 ```bash
 exit 或者 quit
 ```
 
-##  <font color=" LightSteelBlue ">6. 打开 /etc/mysql/mysql.conf.d/mysqld.cnf  ------- ubuntu16.04的位置</font>
+###  <font color=" LightSteelBlue ">6. 打开 /etc/mysql/mysql.conf.d/mysqld.cnf  ------- ubuntu16.04的位置</font>
 
 ```bash
 使用 vim 打开 修改文件中的 绑定地址 注意 最开始是 127.0.0.1的 修改为 0.0.0.0
@@ -85,7 +83,7 @@ exit 或者 quit
  : set number
 ```
 
-##  <font color=" LightSteelBlue ">7. 重启MySQL服务</font>
+###  <font color=" LightSteelBlue ">7. 重启MySQL服务</font>
 
 ```bash
 sudo /etc/init.d/mysql stop
