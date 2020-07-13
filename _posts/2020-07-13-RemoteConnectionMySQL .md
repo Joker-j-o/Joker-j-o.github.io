@@ -46,11 +46,8 @@ FLUSH PRIVILEGES;
 SELECT DISTINCT CONCAT('User: ''',user,'''@''',host,''';') AS query FROM mysql.user;
 ```
 
-
-
 > 权限通过结果
-
-```bash
+```python
 +-------------------------------------------------------+
 | query                                                 |
 +-------------------------------------------------------+
