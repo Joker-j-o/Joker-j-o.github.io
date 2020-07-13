@@ -52,6 +52,7 @@ SELECT DISTINCT CONCAT('User: ''',user,'''@''',host,''';') AS query FROM mysql.u
 
 > 权限通过结果
 
+```python
 +-------------------------------------------------------+
 | query                                                 |
 +-------------------------------------------------------+
@@ -61,6 +62,7 @@ SELECT DISTINCT CONCAT('User: ''',user,'''@''',host,''';') AS query FROM mysql.u
 | User: 'mysql.sys'@'localhost';                        |
 | User: 'root'@'localhost';                             |
 +-------------------------------------------------------+
+```
 
 ##  <font color=" LightSteelBlue ">5. 退出数据库</font>
 
