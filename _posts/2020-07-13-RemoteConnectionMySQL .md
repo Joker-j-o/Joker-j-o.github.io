@@ -1,22 +1,15 @@
-\---
-
+---
 layout:   post          # 使用的布局（不需要改）
-
 title:   Win Remote connection MySQL       # 标题 
-
 subtitle:  Bree #副标题
-
 date:    2020-07-10       # 时间
-
 author:   Bree           # 作者
-
 header-img: static/img/16.jpg  #这篇文章标题背景图片
-
 catalog: true            # 是否归档
-
 categories: [python, django]
+---
 
-\---
+
 
 
 
@@ -59,15 +52,15 @@ SELECT DISTINCT CONCAT('User: ''',user,'''@''',host,''';') AS query FROM mysql.u
 
 > 权限通过结果
 
-+------------------------------------------------------+
-| query                                                        |
-+------------------------------------------------------+
++-------------------------------------------------------+
+| query                                                 |
++-------------------------------------------------------+
 | User: 'root'@'%';                                     |
-| User: 'debian-sys-maint'@'localhost'; |
-| User: 'mysql.session'@'localhost';       |
-| User: 'mysql.sys'@'localhost';               |
-| User: 'root'@'localhost';                        |
-+------------------------------------------------------+
+| User: 'debian-sys-maint'@'localhost';                 |
+| User: 'mysql.session'@'localhost';                    |
+| User: 'mysql.sys'@'localhost';                        |
+| User: 'root'@'localhost';                             |
++-------------------------------------------------------+
 
 ##  <font color=" LightSteelBlue ">5. 退出数据库</font>
 
