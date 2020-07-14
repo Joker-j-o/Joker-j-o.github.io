@@ -5,6 +5,7 @@ github: https://github.com/Joker-j-o
 # about: 「joker&Web Security Researcher」
 about: 「 Bree & Web Python after end 」
 avatar_url: /static/img/1012576.jpg
+toc: true # 是否启用内容索引
 
 enableTags: true
 tagarray: []
@@ -61,15 +62,6 @@ share:
   enable: true  # 是否启用分享
   sites: weibo,qq,wechat,facebook,twitter  # PC端显示的分享图标
   mobile_sites: weibo,qq,qzone  # 移动端显示的分享图标
-
-
-title: 文章标题
-categories:
-  - 文章分类
-tags:
-  - 文章标签
-toc: true # 是否启用内容索引
-
 
 # Featured Tags
 featured-tags: true                     # 是否使用首页标签
