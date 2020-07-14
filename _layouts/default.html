@@ -192,6 +192,55 @@ layout: compress
   <script src="/static/js/thickbox-compressed.js"></script>
   <script src="/static/js/projects.js"></script>
 
+  <!-- 鼠标特效 -->
+  <script type="text/javascript">
+    var a_idx = 0;
+    jQuery(document).ready(function ($) {
+      $("body").click(function (e) {
+        var a = new Array("❤学习", "❤充电", "❤加油", "❤沉淀", "❤买房", "❤买车", "❤结婚", "❤旅游");
+        var $i = $("<span></span>").text(a[a_idx]);
+        a_idx = (a_idx + 1) % a.length;
+        var x = e.pageX,
+          y = e.pageY;
+        $i.css({
+          "z-index": 999999999999999999999999999999999999999999999999999999999999999999999,
+          "top": y - 20,
+          "left": x,
+          "position": "absolute",
+          "font-weight": "bold",
+          "color": "rgb(" + ~~(255 * Math.random()) + "," + ~~(255 * Math.random()) + "," + ~~(255 * Math.random()) + ")"
+        });
+        $("body").append($i);
+        $i.animate({
+          "top": y - 180,
+          "opacity": 0
+        },
+          1500,
+          function () {
+            $i.remove();
+          });
+      });
+    });
+  </script>
+  <script src="https://files.cnblogs.com/files/wkfvawl/mouse-click.js"></script>
+  <canvas width="1777" height="841"
+    style="position: fixed; left: 0px; top: 0px; z-index: 2147483647; pointer-events: none;"></canvas>
+
+  <!-- 文章二次元 -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css" />
+  <script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget/autoload.js"></script>
+
+  <!-- 图片点击放大功能 -->
+  <!-- lightbox的样式 -->
+  <link href="https://blog-static.cnblogs.com/files/yadongliang/lightbox.css" rel="stylesheet">
+  <!-- lightbox.js核心代码 -->
+  <script src="https://blog-static.cnblogs.com/files/yadongliang/lightbox-plus-jquery.js"></script>
+  <script
+    type='text/javascript'>$('#cnblogs_post_body img').wrap(function () { return "<a href='" + $(this).attr("src") + "' data-lightbox='example-set'></a>" });</script>
+  <script type='text/javascript'>$(".code_img_closed").unwrap();</script>
+  <script type='text/javascript'>$(".code_img_opened").unwrap();</script>
+
 </body>
 
 </html>
