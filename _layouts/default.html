@@ -183,15 +183,6 @@ layout: compress
   </script>
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/2662419405/CDN/pio.css" />
 
-  <!-- Bootstrap core JavaScript -->
-  <!-- Placed at the end of the document so the pages load faster -->
-  <script src="/static/js/jquery-1.11.0.min.js"></script>
-  <script src="/static/js/jquery-migrate-1.2.1.min.js"></script>
-  <script src="/static/js/bootstrap.min.js"></script>
-  <script src="/static/js/super-search.js"></script>
-  <script src="/static/js/thickbox-compressed.js"></script>
-  <script src="/static/js/projects.js"></script>
-
   <!-- 鼠标特效 -->
   <script type="text/javascript">
     var a_idx = 0;
@@ -230,6 +221,26 @@ layout: compress
   <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css" />
   <script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget/autoload.js"></script>
+
+  <!-- 图片点击放大功能 -->
+  <!-- lightbox的样式 -->
+  <link href="https://blog-static.cnblogs.com/files/yadongliang/lightbox.css" rel="stylesheet">
+  <!-- lightbox.js核心代码 -->
+  <script src="https://blog-static.cnblogs.com/files/yadongliang/lightbox-plus-jquery.js"></script>
+  <script
+    type='text/javascript'>$('#cnblogs_post_body img').wrap(function () { return "<a href='" + $(this).attr("src") + "' data-lightbox='example-set'></a>" });</script>
+  <script type='text/javascript'>$(".code_img_closed").unwrap();</script>
+  <script type='text/javascript'>$(".code_img_opened").unwrap();</script>
+
+
+  <!-- Bootstrap core JavaScript -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="/static/js/jquery-1.11.0.min.js"></script>
+  <script src="/static/js/jquery-migrate-1.2.1.min.js"></script>
+  <script src="/static/js/bootstrap.min.js"></script>
+  <script src="/static/js/super-search.js"></script>
+  <script src="/static/js/thickbox-compressed.js"></script>
+  <script src="/static/js/projects.js"></script>
 
 </body>
 
