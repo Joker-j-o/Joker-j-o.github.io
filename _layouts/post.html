@@ -135,4 +135,144 @@ layout: default
   </script>
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/2662419405/CDN/pio.css" />
 
+  <title></title>
+  <script src="node_modules/jquery/jquery.js"></script>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    #picOne img {
+      width: 200px;
+      height: 200px;
+    }
+
+    .mask-img {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 10;
+      background: rgba(0, 0, 0, .2);
+    }
+
+    .picture {
+      display: none;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 960px;
+      height: 700px;
+      line-height: 700px;
+      text-align: center;
+      background: #666;
+      z-index: 20;
+    }
+
+    .picture .phone {
+      vertical-align: middle;
+      max-width: 868px;
+      max-height: 670px;
+    }
+
+    .picture .left {
+      position: absolute;
+      left: 10px;
+      top: 320px;
+      width: 25px;
+      height: 40px;
+      line-height: 40px;
+    }
+
+    .picture .right {
+      position: absolute;
+      right: 10px;
+      top: 320px;
+      width: 25px;
+      height: 40px;
+      line-height: 40px;
+    }
+  </style>
+
+  <div class="seaImg">
+    <!-- seaImg可动态生成多个 -->
+    <div id="picOne">　　　
+      <img src="img/img2.jpg">
+      <img src="img/img3.jpg">
+      <img src="img/img1.jpg">
+    </div>
+  </div>
+  <!--  遮罩层 -->
+  <div class="mask-img"></div>
+  <div class="picture">
+    <img class="phone" src="" alt="" />
+    <div class="left"><img src="img/left.png" alt="" /></div>
+    <div class="right"><img src="img/right.png" alt="" /></div>
+  </div>
+  <script>
+    function seaImg() {
+      $(".mask-img").on("click", function (e) {
+        $(".mask-img").css("display", "none");
+        $(".picture").css("display", "none");
+      })
+      var imgs = $('.seaImg img')
+      var images;
+      imgs.on('click', function (e) {
+        var father = (e.currentTarget).parentNode; //当前点击图片的父元素
+        var att = father.attributes.id.nodeValue; //父元素自己的属性id
+        var image = '#' + att + ' img'
+        images = $(image)  //jquer获取id下的所有img
+        $(".mask-img").css("display", "block");
+        $(".picture").css("display", "block");
+        $(".phone").attr("src", e.currentTarget.src);
+        if (e.currentTarget == images[0]) {
+          $(".left").css("display", "none");
+        } else {
+          $(".left").css("display", "block");
+        }
+        if (e.currentTarget == images[images.length - 1]) {
+          $(".right").css("display", "none");
+        } else {
+          $(".right").css("display", "block");
+        }
+      })
+      //左点击事件，当图片为第一张的时候左边的箭头点击图片隐藏
+      $(".left").on("click", function () {
+        var imgSrc = $(".phone").attr("src");
+        $(".right").css("display", "block");
+        for (var i = 0; i < images.length; i++) {
+          if (imgSrc == images[i].src) {
+            if (imgSrc == images[1].src) {
+              $(".left").css("display", "none");
+            }
+            var j = i;
+            $(".phone").attr("src", images[j - 1].src);
+          }
+
+        }
+      })
+      //右点击事件， 当图片为最后一张的时候右边箭头点击图片隐藏
+      $(".right").on("click", function () {
+        var imgSrc = $(".phone").attr("src");
+        $(".left").css("display", "block");
+        for (var i = 0; i < images.length; i++) {
+          if (imgSrc == images[i].src) {
+            if (imgSrc == imgs[images.length - 2].src) {
+              $(".right").css("display", "none");
+            }
+            var j = i;
+            $(".phone").attr("src", images[j + 1].src);
+          }
+        }
+      })
+
+    }
+    seaImg()
+  </script>
+
+
 </div>
